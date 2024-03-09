@@ -39,8 +39,8 @@
 
 	<properties>
 		<httpclient.version>4.2.5</httpclient.version>
-		<jackson.version>2.2.2</jackson.version>
-		<jgit.version>2.3.1.201302201838-r</jgit.version>
+		<jackson.version>2.12.7.1</jackson.version>
+		<jgit.version>6.6.1.202309021850-r</jgit.version>
 		<maven.version>3.0</maven.version>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssa</maven.build.timestamp.format>
 		<timestamp>${maven.build.timestamp}</timestamp>
@@ -148,7 +148,7 @@
 			<dependency>
 				<groupId>org.codehaus.plexus</groupId>
 				<artifactId>plexus-utils</artifactId>
-				<version>2.0.7</version>
+				<version>3.0.24</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
